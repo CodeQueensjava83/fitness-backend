@@ -1,0 +1,180 @@
+type: collection.insomnia.rest/5.0
+name: Fitness Spring
+meta:
+  id: wrk_f5c3d86b31424a8aaa211a28b3e00681
+  created: 1760624751136
+  modified: 1760624751136
+  description: ""
+collection:
+  - name: Postagem
+    meta:
+      id: fld_bae91d14eb604005a3cfa7d172e1fdcd
+      created: 1760443134968
+      modified: 1760443134968
+      sortKey: -1760443134968
+      description: ""
+    children:
+      - url: http://localhost:8080/exercicios
+        name: Listar Todos
+        meta:
+          id: req_7f7fc2038a5e472eab947e2a79bbe835
+          created: 1760443171119
+          modified: 1760624932143
+          isPrivate: false
+          description: ""
+          sortKey: -1760443171120
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.6.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:8080/exercicios/4
+        name: Procurar por ID
+        meta:
+          id: req_fdca1832160947d28670d55ce3cbd6ee
+          created: 1760445307889
+          modified: 1760639007288
+          isPrivate: false
+          description: ""
+          sortKey: -1760443171070
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.6.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:8080/exercicios/nome/balasana
+        name: Procurar por Nome
+        meta:
+          id: req_8c370901d9c94a63898e665ffaf5eda7
+          created: 1760448764435
+          modified: 1760625930886
+          isPrivate: false
+          description: ""
+          sortKey: -1760443171020
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.6.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:8080/exercicios
+        name: Criar Exercicio
+        meta:
+          id: req_9b72067e8d7546998a14db9838737a24
+          created: 1760450102987
+          modified: 1760626703757
+          isPrivate: false
+          description: ""
+          sortKey: -1760450102987
+        method: POST
+        body:
+          mimeType: application/json
+          text: >-
+            	{
+            		"nome": "Tadasana",
+            		"tempo": 15,
+            		"nivel": "iniciante",
+            		"descricao": "Você fica em pé, com os pés juntos, braços ao lado do corpo e a coluna alongada. Palmas voltadas para frente e respiração consciente.",
+            		"linkAcesso": "fto_posicao"
+            	}
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/11.6.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:8080/exercicios
+        name: Atualizar Exercicio
+        meta:
+          id: req_8fa9fb66915d49bb95976d8a4f37566b
+          created: 1760451645749
+          modified: 1760639020609
+          isPrivate: false
+          description: ""
+          sortKey: -1760446637053.5
+        method: PUT
+        body:
+          mimeType: application/json
+          text: >-
+            	{
+            		"id": 2,
+            		"nome": "Balasana",
+            		"tempo": 20,
+            		"nivel": "intermediario",
+            		"descricao": "Ajoelhe-se no chão, sente-se sobre os calcanhares e estique os braços à frente com a testa apoiada no chão.",
+            		"linkAcesso": "fto_posicao"
+            	}
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/11.6.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:8080/exercicios/2
+        name: Deletar Exercicio
+        meta:
+          id: req_1c3556ba8dd24109a63a0ccddd60340b
+          created: 1760452554058
+          modified: 1760639049595
+          isPrivate: false
+          description: ""
+          sortKey: -1760443171045
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/11.6.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_2d9e0d2ff0814cc4973eaca7d86815c3
+    created: 1760443065947
+    modified: 1760443065947
+environments:
+  name: Base Environment
+  meta:
+    id: env_12c47af218e742b7a71c6b89bb401663
+    created: 1760443065942
+    modified: 1760443065942
+    isPrivate: false

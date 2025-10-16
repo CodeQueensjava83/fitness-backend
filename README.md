@@ -23,10 +23,10 @@ A API do Yoga Flow oferece uma solução segura e escalável para integrar prát
 
 O sistema permite:
 
--Escolha do tipo de exercício conforme preferência do usuário.
--Controle de tempo com práticas entre 30 a 45 minutos.
--Classificação por nível (iniciante, intermediário e avançado).
--Recursos multimídia, como acompanhamento por vídeo e áudio, garantindo acessibilidade e melhor experiência de prática.
+- Escolha do tipo de exercício conforme preferência do usuário.
+- Controle de tempo com práticas entre 30 a 45 minutos.
+- Classificação por nível (iniciante, intermediário e avançado).
+- Recursos multimídia, como acompanhamento por vídeo e áudio, garantindo acessibilidade e melhor experiência de prática.
 
 ------
 

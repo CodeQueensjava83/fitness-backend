@@ -99,13 +99,13 @@ Adicione a imagem do DER
 
 ## 5. Tecnologias utilizadas
 
-| Item                          | Descrição     |
-| ----------------------------- | ------------  |
-| **Servidor**                  | Apache Tomcat |
-| **Linguagem de programação**  | Java          |
-| **Framework**                 | SpringBoot    |
-| **ORM**                       | Hibernate     |
-| **Banco de dados Relacional** | MySQL         |
+| Item                          | Descrição       |
+| ----------------------------- | ----------------|
+| **Servidor**                  | Apache Tomcat   |
+| **Linguagem de programação**  | Java            |
+| **Framework**                 | SpringBoot      |
+| **ORM**                       | JPA + Hibernate |
+| **Banco de dados Relacional** | MySQL           |
 
 ------
 

@@ -57,7 +57,9 @@ git clone https://github.com/rafaelq80/conta_bancaria_t82.git
 4. Caso seja perguntado qual é o tipo do projeto, selecione a opção **Java Application**
 5. O console exibirá o menu do Projeto.
 
-<br />```mermaid
+<br />
+
+```mermaid
 classDiagram
     direction LR
     class Exercicio {
@@ -81,7 +83,7 @@ classDiagram
         +getLinkAcesso() String
         +setLinkAcesso(String) void
     }
-
+```
 <br />
 ------
 

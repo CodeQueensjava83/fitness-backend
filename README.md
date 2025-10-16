@@ -137,3 +137,17 @@ Executando o projeto
 5. O console exibirá o menu do Projeto.
 
 <br />
+
+##  7. Contato
+
+<br />
+
+Desenvolvido por [**CodeQueen**](https://github.com/CodeQueensjava83)
+Carina Bentlin
+Luana Borghetti Vicaria
+Maria Medeiros
+Milena Svitras
+Myriam Liston Ferreira Perdiza
+Rafaela Imiani
+grupob.turmajava83@gmail.com
+Para dúvidas, sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!

@@ -32,32 +32,10 @@ O sistema permite:
 
 ## 3. Diagrama de Classes
 
-Importando o Projeto
+O Diagrama de Classes é um modelo visual usado na programação orientada a objetos para representar a estrutura de um sistema. Ele exibe classes, atributos, métodos e os relacionamentos entre elas, como associações, heranças e dependências.
 
-1. Clone o repositório do Projeto [Fitness](https://github.com/CodeQueensjava83/fitness-backend) dentro da pasta do *Workspace* do Eclipse/STS
+Esse diagrama ajuda a planejar e entender a arquitetura do sistema, mostrando como as entidades interagem e se conectam. É amplamente utilizado nas fases de design e documentação de projetos.
 
-```bash
-git clone https://github.com/CodeQueensjava83/fitness-backend
-```
-
-2. **Abra o Eclipse/STS** e selecione a pasta do *Workspace* onde você clonou o repositório do projeto
-3. No menu superior do Eclipse/STS, clique na opção: **File 🡲 Import...**
-4. Na janela **Import**, selecione a opção: **General 🡲 Existing Projects into Workspace** e clique no botão **Next**
-5. Na janela **Import Projects**, no item **Select root directory**, clique no botão **Browse...** e selecione a pasta do Workspace onde você clonou o repositório do projeto
-6. O Eclipse/STS reconhecerá automaticamente o projeto
-7. Marque o Projeto Conta Bancária no item **Projects** e clique no botão **Finish** para concluir a importação
-
-<br />
-
-### 6.2. Executando o projeto
-
-1. Na guia **Package Explorer**, localize o Projeto Conta Bancária
-2. Abra a **Classe Menu**
-3. Clique no botão **Run** <img src="https://i.imgur.com/MtBQjUp.png" title="source: imgur.com" width="3%"/> para executar a aplicação
-4. Caso seja perguntado qual é o tipo do projeto, selecione a opção **Java Application**
-5. O console exibirá o menu do Projeto.
-
-<br />
 
 ```mermaid
 classDiagram
@@ -84,7 +62,7 @@ classDiagram
         +setLinkAcesso(String) void
     }
 ```
-<br />
+
 ------
 
 ## 4. Diagrama Entidade-Relacionamento (DER)

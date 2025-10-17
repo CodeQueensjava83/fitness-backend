@@ -34,7 +34,7 @@ O sistema permite:
 
 Importando o Projeto
 
-1. Clone o repositório do Projeto [Conta Bancária](https://github.com/CodeQueensjava83/fitness-backend) dentro da pasta do *Workspace* do Eclipse/STS
+1. Clone o repositório do Projeto [Fitness](https://github.com/CodeQueensjava83/fitness-backend) dentro da pasta do *Workspace* do Eclipse/STS
 
 ```bash
 git clone https://github.com/CodeQueensjava83/fitness-backend
